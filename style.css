@@ -1,0 +1,30 @@
+}
+#menu li {
+	display: inline;
+	list-style: none; /* pour enlever les puces sur IE7 */
+	margin:20px; 
+}
+#Filtres li {
+	display: inline;
+	list-style: none; /* pour enlever les puces sur IE7 */
+	margin:20px;
+}
+h3 {
+	align-items: stretch; 	
+	padding:0px;
+
+}
+img {
+      border-radius: 10px;
+      width: 200px;
+	  height: 150px;
+}
+
+footer {
+
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+
+
