@@ -20,11 +20,9 @@ img {
 	  height: 150px;
 }
 
-footer {
-
-	flex-direction: column;
-	justify-content: flex-end;
+#footer {
+display: flex;
+justify-content: space-around;
 }
-
 
 
