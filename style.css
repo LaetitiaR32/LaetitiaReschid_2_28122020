@@ -2,6 +2,7 @@
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin: 20px;
+	float: right;
 }
 #Filtres li {
 	display: inline;
