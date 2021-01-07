@@ -1,8 +1,12 @@
+body {
+	font-size: 12px; /* px signifie 'pixels': la taille de base pour la police est désormais 12 pixels de haut  */
+	font-family: "Raleway", sans-serif ; /* ajout de la police Raleway */ 
+}
 #menu li {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin: 20px;
-	float: right;
+	
 }
 #Filtres li {
 	display: inline;
