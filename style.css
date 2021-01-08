@@ -11,7 +11,23 @@ body {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin:20px;
+}	
+.fa-money-bill-wave {
+	color: #DEEBFF;
 }
+.fa-child {
+	color: #DEEBFF;
+}
+.fa-heart {
+	color: #DEEBFF;
+}
+.fa-dog {
+	color: #DEEBFF;
+}
+.fa-info-circle {
+	color: #DEEBFF;
+}
+
 h3 {
 	align-items: stretch; 	
 	padding:0px;
