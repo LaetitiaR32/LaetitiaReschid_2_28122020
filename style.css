@@ -7,11 +7,47 @@ body {
 	margin: 20px;	
 	color: #DEEBFF; 
 }
+/* haut de page */
+
 #Filtres li {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin:20px;
+}	
+.fa-money-bill-wave {
+	color: blue;
 }
+.fa-child {
+	color: blue;
+}
+.fa-heart {
+	color: blue;
+}
+.fa-dog {
+	color: blue;
+}
+.fa-info-circle {
+	color: white;	
+}
+.input {
+	color: blue;
+}
+.block1 {
+display: flex;
+justify-content: flex-start;
+float: left;
+}
+
+.block2 {
+float: right;	
+}
+.block3 {
+display: flex;
+
+justify-content: flex-start;
+clear: both;
+}
+ 
 h3 {
 	align-items: stretch; 	
 	padding:0px;
@@ -22,7 +58,7 @@ img {
       width: 200px;
 	  height: 150px;
 }
-
+/* pied de page */
 #footer {
 display: flex;
 justify-content: space-around;
