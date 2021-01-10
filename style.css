@@ -43,7 +43,6 @@ float: right;
 }
 .block3 {
 display: flex;
-
 justify-content: flex-start;
 clear: both;
 }
