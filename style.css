@@ -2,7 +2,7 @@ body {
 	font-family: "Raleway", sans-serif ; /* ajout de la police Raleway */ 
 }
 #menu li {
-	display: inline;
+	display: flex;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin: 20px;
 	justify-content: flex-end;
@@ -38,11 +38,14 @@ body {
 display: flex;
 justify-content: flex-start;
 float: left;
-width: 200px;
+border:2px solid black;
+left:10px;top:10px;
+width:150px;height:200px;
 }
 
 .block2 {
-float: right;	
+float: right;
+left:120px;
 }
 .block3 {
 display: flex;
