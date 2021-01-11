@@ -27,7 +27,7 @@ body {
 	color: blue;
 }
 .fa-info-circle {
-	color: white;	
+	color: blue;	
 }
 .input {
 	color: blue;
@@ -46,7 +46,6 @@ display: flex;
 justify-content: flex-start;
 clear: both;
 }
- 
 h3 {
 	align-items: stretch; 	
 	padding:0px;
