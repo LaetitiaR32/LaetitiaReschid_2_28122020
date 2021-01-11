@@ -4,8 +4,9 @@ body {
 #menu li {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
-	margin: 20px;	
-	color: #DEEBFF; 
+	margin: 20px;
+	float: right;	
+	color: blue; 
 }
 /* haut de page */
 
@@ -13,6 +14,7 @@ body {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin:20px;
+	
 }	
 .fa-money-bill-wave {
 	color: blue;
