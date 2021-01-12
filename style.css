@@ -13,8 +13,7 @@ body {
 #Filtres li {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
-	margin:20px;
-	
+	margin:20px;	
 }	
 .fa-money-bill-wave {
 	color: blue;
@@ -39,21 +38,20 @@ display: flex;
 
 }
 .bloc1 {
-background-color: lightgrey
-	
+	width: 60%;
+	margin: 3%;
 }
-
 .bloc2 {
-background-color: lightgrey;
-
+	width: 40%;
+	margin: 3%;
 }
+
 .bloc3 {
 margin: 3%;
-clear: both;
 }
+
 h2 {
 	margin: 3%;
-
 }
 img {
       border-radius: 10px;
@@ -64,6 +62,7 @@ img {
 #footer {
 display: flex;
 justify-content: space-between;
+margin: 3%;
 }
 
 
