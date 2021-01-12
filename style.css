@@ -34,22 +34,21 @@ body {
 .input {
 	color: blue;
 }
-.block1 {
+#conteneur {
 display: flex;
-justify-content: flex-start;
-float: left;
-border:2px solid black;
-left:10px;top:10px;
-width:150px;height:200px;
+
+}
+.bloc1 {
+background-color: lightgrey
+	
 }
 
-.block2 {
-float: right;
-left:120px;
+.bloc2 {
+background-color: lightgrey;
+
 }
-.block3 {
-display: flex;
-justify-content: flex-start;
+.bloc3 {
+margin: 3%;
 clear: both;
 }
 h3 {
@@ -65,7 +64,7 @@ img {
 /* pied de page */
 #footer {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 
