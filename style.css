@@ -1,6 +1,9 @@
 body {
 	font-family: "Raleway", sans-serif ; /* ajout de la police Raleway */ 
 }
+header {
+	margin: 0 3%;
+}
 #menu li {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
@@ -14,23 +17,16 @@ body {
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin:20px;	
 }	
-.fa-money-bill-wave {
-	color: blue;
-}
-.fa-child {
-	color: blue;
-}
-.fa-heart {
-	color: blue;
-}
-.fa-dog {
+.iconeFiltre {
 	color: blue;
 }
 .fa-info-circle {
-	color: blue;	
+	
 }
-.input {
-	color: blue;
+button {
+	background-color: blue;
+	border-radius: 15px;
+	color: white;
 }
 #conteneur {
 display: flex;
@@ -40,6 +36,7 @@ flex-wrap: wrap;
 .bloc1 {
 	width: 70%;
 	margin: 2%; 
+	border-radius: 15px;
 	background-color: lightgrey;
 	display: flex;
 	align-content: flex-start;
@@ -48,6 +45,7 @@ flex-wrap: wrap;
 .bloc2 {
 	width: 20%;
 	margin: 2%;
+	border-radius: 15px;
 	background-color: lightgrey;
 	
 
@@ -62,7 +60,7 @@ h2{
 	margin: 3%;
 }
 img {
-      border-radius: 10px;
+      border-radius: 15px;
       width: 200px;
 	  height: 120px;
 	  border: 4px solid white;	  
@@ -78,10 +76,7 @@ img {
 	padding:1px;
 	border: 1px 	
 }
-.fig {
-	display: flex;
-	text-align:center
-	}
+
 /* pied de page */
 #footer {
 display: flex;
