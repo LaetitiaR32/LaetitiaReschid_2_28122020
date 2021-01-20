@@ -17,36 +17,47 @@ header, #menu {
 #Filtres li { /* choix à coté du filtre */
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
-	margin: 10px;	/* espace entre les filtres */
-	border: 1px solid lightgrey;
+	margin: 20px;	/* espace entre les filtres*/
+	border: 2px solid lightgrey;
 	padding: 10px; /* hauteur de la bordure*/
 	border-radius: 20px;
-
 }	
+
 .iconeFiltre { /* icone à coté des choix */
-	color: #0065FC; /* bleu */
-	background-color: ;	/* bleu clair */
-	border-radius: 20px;
-	margin: 1px;
-	padding: 8px;
-	width: 30px; /*espace entre l'icone et le filtre*/
-	height: 0 30px;
+	color: #0065FC; /* bleu*/
+	border-radius: 50px;
+	width: 40px; /* espace entre les icones et les choix*/
+  	height: 23px;
 }
 .iconeMap { /* icone près de la barre de recherche*/
-	background-color: blue;	/* gris clair */
-	border-radius: 20px;
-	margin: 0 1px;
-	padding: 8px;
+	background-color:  #F2F2F2;	/* gris clair */
+	border-radius: 10px 0px 0px 10px;
+	height:26px;
+	width: 30px;	
 }	
 button {
-	background-color: blue;
-	border-radius: 15px;
+	background-color: #0065FC; /* bleu */
+ 	border-radius: 0px 10px 10px 0px;
 	color: white;
+	border: none;
+	height: 30px;
+	width: 100px;
+	 }
+
+input {
+	height: 30px;
+	border-color:  #F2F2F2;
+	}
+	
+.iconeInfo{
+	color: #0065FC; /* bleu */
+	border-radius: 30px solid lightgrey;
+	height: 40px;
+	width: 40px;	
 }
 #conteneur {
 display: flex;
 flex-wrap: wrap;
-
 }
 .bloc1 {
 	width: 70%;
