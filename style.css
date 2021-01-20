@@ -25,15 +25,22 @@ header, #menu {
 
 .iconeFiltre { /* icone à coté des choix */
 	color: #0065FC; /* bleu*/
-	border-radius: 50px;
-	width: 40px; /* espace entre les icones et les choix*/
-  	height: 23px;
+	background-color: #DEEBFF;
+		border-radius: 60px;
+	padding: 17px;
+	height: 17px;	
+	width: 17px;
 }
+
+
 .iconeMap { /* icone près de la barre de recherche*/
-	background-color:  #F2F2F2;	/* gris clair */
-	border-radius: 10px 0px 0px 10px;
-	height:26px;
-	width: 30px;	
+	background-color: lightgrey; /* bleu */
+ 	border-radius: 10px 0px 0px 10px;
+ 	padding: 5px;
+	height: 20px;	
+	width: 17px;
+	border : 1px  lightgrey;
+	border-bottom: none;	
 }	
 button {
 	background-color: #0065FC; /* bleu */
@@ -48,13 +55,16 @@ input {
 	height: 30px;
 	border-color:  #F2F2F2;
 	}
-	
+
 .iconeInfo{
 	color: #0065FC; /* bleu */
-	border-radius: 30px solid lightgrey;
-	height: 40px;
-	width: 40px;	
-}
+	border: 2px solid lightgrey;
+	border-radius: 60px;
+	padding: 7px;
+	height: 7px;	
+	width: 7px;
+	
+  }	
 #conteneur {
 display: flex;
 flex-wrap: wrap;
@@ -72,7 +82,8 @@ flex-wrap: wrap;
 	width: 20%;
 	margin: 2%;
 	border-radius: 15px;
-	background-color: lightgrey;
+	background-color: #F2F2F2;
+	
 	
 
 }
