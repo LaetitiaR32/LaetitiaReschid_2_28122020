@@ -1,5 +1,7 @@
 body {
-	font-family: "Raleway", sans-serif ; /* ajout de la police Raleway */ 
+	font-family: "Raleway", sans-serif ; /* ajout de la police Raleway */
+	margin: 0 3%;
+
 }
 header, #menu {
 	display: flex;
@@ -18,9 +20,10 @@ header, #menu {
 	display: inline;
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin: 20px;	/* espace entre les filtres*/
-	border: 2px solid lightgrey;
 	padding: 10px; /* hauteur de la bordure*/
 	border-radius: 20px;
+	/*METTRE BORDURE AUTOUR DU FILTRES*/
+
 }	
 
 .iconeFiltre { /* icone à coté des choix */
