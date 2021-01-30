@@ -16,40 +16,15 @@ header, #menu {
 	margin: 30px;
 
 }
-/* haut de page */
-
-#Filtres li { /* choix à coté du filtre */
-	display: inline;
-	list-style: none; /* pour enlever les puces sur IE7 */
-	margin: 20px;	/* espace entre les filtres*/
-	padding: 10px; /* hauteur de la bordure*/
-	border-radius: 20px;
-
-/*METTRE BORDURE AUTOUR DU FILTRES*/
-	
-
-}	
-
-.iconeFiltre { /* icone à coté des choix */
-	color: #0065FC; /* bleu*/
-	background-color: #DEEBFF;
-		border-radius: 60px;
-	padding: 17px;
-	height: 17px;	
-	width: 17px;
-
-}
-
 .iconeMap { /* icone près de la barre de recherche*/
 	background-color: lightgrey; /* bleu */
  	border-radius: 10px 0px 0px 10px;
- 	padding: 5px;
-	height: 20px;	
+ 	padding: 12px;	
 	width: 17px;
-	border : 1px  lightgrey;
-	border-bottom: none;
-
-
+}
+#barre{
+	display: flex;
+	flex-direction: row;
 }
 
 button {
@@ -57,47 +32,84 @@ button {
  	border-radius: 0px 10px 10px 0px;
 	color: white;
 	border: none;
-	height: 30px;
+	height: 40px;
 	width: 100px;
 }
 input {
-	height: 30px;
-	border-color: lightgrey;
+	height: 40px;
+	width: 180px;
+	border-color: #F2F2F2;
+	/* METTRE DIV + FLEXBOX = alignemt barre info, div hautuer 30px*/ 
+}
+/* haut de page */
+
+#Filtres {
+	display: flex;
+	justify-content: flex-start;
+}
+#Filtres p {
+	margin: 15px;
+}
+
+#Filtres li { /* choix à coté du filtre */
+	list-style: none; /* pour enlever les puces sur IE7 */
+	margin: 20px;	/* espace entre les filtres*/
+	padding: 45px; /* hauteur de la bordure*/
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+
+/*METTRE BORDURE AUTOUR DU FILTRES*/
+}	
+
+i.iconeFiltre { /* icone à coté des choix */
+	color: #0065FC; /* bleu*/
+	background-color: #DEEBFF;
+	border-radius: 60px;
+	height: 50px;	
+	width: 52px;
+	margin: 0 -7px;
+	display: flex; /* mise en forme des cercles + filtres*/
+	justify-content: center;
+	align-items: center;
+
 }
 
 .iconeInfo{
 	color: #0065FC; /* bleu */
 	border: 2px solid lightgrey;
-	border-radius: 60px;
-	padding: 7px;
-	height: 7px;	
-	width: 7px;
-	
+	border-radius: 20px;
+	height: 20px;	
+	width: 22px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
   }
 
+#paragraphe {
+	display: flex;
+	align-items: center;
+}
 #conteneur{
 	display: flex;
 	flex-wrap: wrap;
 }
-.bloc1 {
-	width: 70%;
-	margin: 2%; 
-	border-radius: 15px;
-	background-color: #F2F2F2;
+#photos {
 	display: flex;
-	align-content: flex-start;
 	flex-wrap: wrap;
-
-
+	align-items: flex-start;
+}
+.bloc1 { /*hébergements*/
+	width: 65%;
+	border-radius: 15px;
+	background-color: #F2F2F2; /*GRIS CLAIR*/
 }
 
-.bloc2 {
-	width: 20%;
-	margin: 2%;
+.bloc2 { /*les +populaires*/
+	width: 30%;
+	margin-left: 2%;
 	border-radius: 15px;
-	background-color: #F2F2F2; /*gris clair */
-	
-
+	background-color:#F2F2F2; /*gris clair */
 }
 .bloc3 {
 	margin: 2%;
@@ -107,25 +119,54 @@ input {
 }
 
 h2 {
-	margin: 3%;
-}
- img {
-      border-radius: 15px;
-      width: 200px;
-	  height: 120px;
-	  border: 5px solid white;	
-}
-.bloc figure {
-	background: white;
-	margin:30px;
-	padding:10px;
+	margin: 5%;
+
 }
 
-.bloc1 figcaption {
-	margin-top:5px;
-	padding:1px;
-	border: 1px 
+.bloc1 img { /* forme image hébergements*/
+		width: 230px;
+		height: 116px;
+		border-radius: 15px 15px 0px 0px;
+		border: 0px solid white;
+}
+	
+.bloc2 img { /* forme image les plus populaires*/
+		width: 130px;
+		height: 130px;
+		border-radius: 15px 0px 0px 15px;
+		border-width: 15px 0px 0px 15px ;
+	
+}
+	
+.bloc3 img {
+		  border-radius: 15px;
+		  width: 200px;
+		  height: 120px;
+}
+	
+.bloc1 figure { /* fond blanc img hébergements*/
+		background: white;
+		margin:20px;
+		padding:10px;
+		border-radius: 20px;
+}
+	
+.bloc2 figure { /* fond blanc img les plus populaires*/
+		background: white;
+		margin:30px;
+		padding:10px;
+		border-radius: 20px;
+		display: flex;
+		align-items: center;
+}
+	
+.bloc2 h2 {
+		display: flex;
+		justify-content: space-between;	
+}
 
+.bloc1 p {
+	margin: 5%;
 }
 
 .starBleu {
