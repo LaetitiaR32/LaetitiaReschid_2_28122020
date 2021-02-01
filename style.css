@@ -53,7 +53,7 @@ input {
 #Filtres li { /* choix à coté du filtre */
 	list-style: none; /* pour enlever les puces sur IE7 */
 	margin: 20px;	/* espace entre les filtres*/
-	padding: 45px; /* hauteur de la bordure*/
+	height: 45px; /* hauteur de la bordure*/
 	border-radius: 30px;
 	border: 2px solid lightgrey;
 	display: flex;
