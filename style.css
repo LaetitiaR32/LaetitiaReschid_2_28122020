@@ -12,6 +12,7 @@ header, #menu {
 
 #menu li:hover { /*surlignement +survol bleu menu*/
 	border-top: 3px solid blue;
+	padding-top: 12px;
 }
 
 #Filtres i:hover { /*effet survol filtres=icones*/
