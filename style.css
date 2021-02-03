@@ -45,6 +45,7 @@ input {
 #Filtres {
 	display: flex;
 	align-items: center;
+	margin: 5px;
 }
 #Filtres p {
 	margin: 12px;
@@ -88,6 +89,8 @@ i.iconeInfo {
 #paragraphe {
 	display: flex;
 	align-items: center;
+	margin-bottom: 24px;
+
 }
 #conteneur{
 	display: flex;
@@ -111,15 +114,15 @@ i.iconeInfo {
 	background-color:#F2F2F2; /*gris clair */
 }
 .bloc3 { /*Activités*/
-	margin:2%;
-	display: flex;
-	align-items: flex-start;
-	flex-wrap: wrap;
+	display: grid;
+	
 }
 
-h2 {
+.bloc1 h2 {
 	margin: 5%;
+	margin-bottom: 20px;
 }
+
 .bloc1 p {
 	margin: 5%;
 }
@@ -145,9 +148,10 @@ h2 {
 }
 
 .bloc2 h2 {
-	display: flex;
-	justify-content: space-between;
-	padding: 5%;
+	margin: 10px;
+	margin-left: 45px;
+	margin-bottom: 34px;
+	margin-top: 2px;
 }
 	
 .bloc2 img { /* forme image les plus populaires*/
@@ -161,12 +165,16 @@ h2 {
 	width: 230px;
 	height: 138px;
 	border-radius: 0px 15px 15px 0px ;	
+	padding-left: 20px;
+	padding-top: 15px;
+ }
 
-  }
+.bloc2 i{
+	padding-top: 50px;
+}
 
 .bloc2 figure { /* fond blanc img les plus populaires*/
 	display: flex;
-	margin: 30px;
 	}
 
 /*Activités*/
@@ -185,6 +193,8 @@ h2 {
 	height: 100px;
 	border-radius: 15px 15px 0px 0px;
 	display: flex;	
+	box-shadow: 5px 5px 5px 5px lightgrey;	
+
 }
 
 .bloc3 figcaption {
