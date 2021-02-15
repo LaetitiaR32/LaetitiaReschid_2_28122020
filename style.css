@@ -1,34 +1,37 @@
 body {
 font-family: "Raleway", sans-serif ; /* ajout de la police Raleway */ 
-margin: 0 3%;
+margin: 0%;
 font-size: 11pt;
 }
+main, header{
+	margin: 0 3%;
+}
+
 header, #menu {
 	display: flex;
 	justify-content: space-between;
 	list-style: none; /* pour enlever les puces sur IE7 */
-	color: blue; 
+}
+#menu li { /* menu à coté du logo */
+	margin: 30px;
+  }
+
+#menu a {
+	color: blue;
 }
 
-#menu li:hover { /*surlignement +survol bleu menu*/
+ #menu li:hover a { /*surlignement +survol bleu menu*/
 	border-top: 3px solid blue;
-	padding-top: 12px;
+	padding-top: 42px;
 }
 
-#Filtres i:hover { /*effet survol filtres=icones*/
+#Filtres li:hover i{ /*effet survol filtres=icones*/
 -webkit-transform: rotate(15deg) scale(1.2);
 	transform: rotate(15deg) scale(1.2);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-
-#menu li { /* menu à coté du logo */
-	display: flex;
-	justify-content: space-between;
-	margin: 30px;
-
-}
 .iconeMap { /* icone près de la barre de recherche*/
 	background-color: lightgrey; /* bleu */
  	border-radius: 10px 0px 0px 10px;
@@ -59,9 +62,12 @@ input {
 	display: flex;
 	align-items: center;
 	margin: 5px;
+	padding: 2px;
+
 }
 #Filtres p {
 	margin: 12px;
+	color: black;
 }
 
 #Filtres li { /* choix à coté du filtre */
@@ -102,8 +108,9 @@ i.iconeInfo {
 #paragraphe {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	margin-bottom: 24px;
-
+	width: 32%;
 }
 #conteneur{
 	display: flex;
@@ -122,7 +129,7 @@ i.iconeInfo {
 
 .bloc2 { /*les +populaires*/
 	width: 30%;
-	margin-left: 2%;
+	margin-left: 5%;
 	border-radius: 15px;
 	background-color:#F2F2F2; /*gris clair */
 }
@@ -141,69 +148,116 @@ i.iconeInfo {
 		height: 106px;
 		border-radius: 15px 15px 0px 0px;
 		border: solid 4px white;
-		display: flex; /*enlever espace entre le texte et l'image*/
-
+		object-fit: cover;
 }
+
+#object-position-1 {
+	object-position: center;
+}
+#object-position-2 {
+	object-position: unset;
+}
+#object-position-3 {
+	object-position: center;
+}
+#object-position-4 {
+	object-position: center;
+}
+#object-position-5 {
+	object-position: center;
+}
+#object-position-6 {
+	object-position: center;
+}
+
 .bloc1 figcaption {
 	background: white;
 	padding: 10px;
-	width: 208px;
-	border-radius: 0px 0px 15px 15px;
-	
+	border-radius: 0px 0px 15px 15px;	
+	margin-top: -5px;
 }
 
 .bloc1 figure { /* fond blanc img hébergements*/
 	margin: 30px;
 }
+/*Les plus populaires*/
 
+.bloc2 figure { /* bloc qui englobe img + texte*/
+	width: 84%;	
+	display: flex;
+	align-content: center;
+	margin: 25px;
+	padding-top: 15px;
+}
 .bloc2 h2 {
-	margin: 10px;
-	margin-left: 45px;
-	margin-bottom: 34px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
 	margin-top: 2px;
+	MARGIN-BOTTOM: 30px;
 }
 	
 .bloc2 img { /* forme image les plus populaires*/
-		width: 130px;
-		height: 130px;
-		border-radius: 15px 0px 0px 15px;
-		border: solid 4px white ;	
+	width: 130px;
+	height: 130px;
+	border-radius: 15px 0px 0px 15px;
+	border: solid 4px white ;	
+	object-fit: cover;	
+}
+
+#object-position-7 {
+	object-position: center;
+}
+#object-position-8 {
+	object-position: unset;
+}
+#object-position-9 {
+	object-position: center;
 }
 .bloc2 figcaption {
 	background: white;
-	width: 230px;
-	height: 138px;
+	width: 199px;
+	height: 121px;
 	border-radius: 0px 15px 15px 0px ;	
-	padding-left: 20px;
-	padding-top: 15px;
- }
+	padding-top: 19px;
+	padding-left: 17px;		
+ }	
 
 .bloc2 i{
 	padding-top: 50px;
 }
 
-.bloc2 figure { /* fond blanc img les plus populaires*/
-	display: flex;
-	}
-
 /*Activités*/
 
-.bloc3 h2 {
-	padding: 2%;
+.bloc3 { /*Activités*/
+	width: 100%;
+	padding-bottom: 30px;
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: 200px 200px;
+}
+.bloc3 figure {
+	margin: 50px;
+
+}
+
+#Activités {
+padding-top: 30px;
+margin-left: 3px;
 }
 
 .bloc3 figure { /* fond blanc img hébergements*/
-	margin: 10px;
+	margin: 20px;
+	box-shadow: 5px 5px 5px 5px lightgrey;	
+	border-radius: 15px 15px 15px 15px;
 }
 
 .bloc3 img { /* forme image Activités*/
     border-radius: 15px;
-    width: 245px;
-	height: 100px;
+    width: 100%;
+	height: calc(100% - 25px);
 	border-radius: 15px 15px 0px 0px;
-	display: flex;	
-	box-shadow: 5px 5px 5px 5px lightgrey;	
-
+	object-fit: cover;	
 }
 
 .bloc3 figcaption {
@@ -212,64 +266,38 @@ i.iconeInfo {
 	height: 25px;
 	padding: 10px;
 }
-.bloc3 { /*Activités*/
-	display: grid;
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr; 
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas: 
-	" bloc4 bloc5 bloc7 bloc8"
-	" bloc6 bloc9"
-	
-}
-#bloc4 img{ /*image Vieux port*/
-	grid-area: bloc4;
-	height: 280px;
-	width: 232px;
+
+#Port { /*image Vieux port*/
+	grid-row: 1/3;
+	grid-column: 1/2;
 }
 
-#bloc7 img{ /*image Parc nationalt*/
-	grid-area: bloc7;
-	height: 280px;
-	width: 232px;
-
+#Parc { /*image Parc national*/
+	grid-row: 1/3;
+	grid-column: 3/4;
 }
 
-#bloc5 img{
-	grid-area: bloc5;
-	width: 250px;
-	height: 120px;
-	
+#Fort { /*image Fort de Pomègue*/
+	grid-row: 1/2;
+	grid-column: 2/3;
+	height: 180px;
 }
-#bloc6 img{
-	grid-area: bloc6;
-	width: 250px;
-	height: 100px;
-}
-#bloc4 img{ /*image Vieux port*/
-	grid-area: bloc4;
-	height: 280px;
-	width: 232px;
+#Iles { /*image Iles de Frioul*/
+	grid-row: 2/3;
+	grid-column: 2/3;
+	height: 110px;
+	margin-top: 60px;
 }
 
-#bloc7 img{ /*image Parc nationalt*/
-	grid-area: bloc7;
-	height: 280px;
-	width: 232px;
+#Dame { /*image Notre Dame de la garde*/
+	grid-row: 1/2;
+	grid-column: 4/5;	
+	height: 150px;
 
 }
-
-#bloc8 img{
-	grid-area: bloc8;
-	width: 250px;
-	height: 120px;
-	
-}
-#bloc9 img{
-	grid-area: bloc9;
-	width: 250px;
-	height: 100px;
+#Longchamp { /*image Parc de Longchamp*/
+	grid-row: 2/3;
+	grid-column: 4/5;
 }
 
 .starBleu {
@@ -283,8 +311,98 @@ i.iconeInfo {
 #footer {
 display: flex;
 justify-content: space-around;
-margin: 2%;
+margin: 0%;
 background-color: #F2F2F2; /*gris clair*/
 }
 
+/* Responsive tablette */
+@media screen and (max-width: 1024px)
+{
+
+body{
+	width: auto;
+}
+#menu li { /* menu à coté du logo */
+	margin: 30px;
+  }
+
+ #menu li:hover a { /*surlignement +survol bleu menu*/
+	border-top: 3px solid blue;
+	padding-top: 42px;
+}
+
+#Filtres{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#Filtres li{
+	margin: 13px;
+}
+#Filtres p {
+	margin: 12px;
+	color: black;
+}
+
+#paragraphe {
+	width: 59%;
+	margin-right: 15px;
+}
+#conteneur {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.bloc1 {
+	width: 97%;
+	margin: 3%;
+}
+.bloc1 figure {
+	padding-left: 40px;
+}
+
+.bloc2{ /*les plus populaires*/
+	width: 97%;
+	margin: 3%;
+	padding-top: 5px;
+}
+.bloc2 figure {
+	margin-left: 70px;
+}
+.bloc2 img {
+	width: 250px;
+}
+.bloc2 figcaption {
+	width: 250px;
+	padding-left: 20px;
+}
+
+#Activités {
+	margin-left: 50px;
+
+}
+.bloc3 {
+	width: 97%;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc3 h2 {
+	padding-left: 20px;
+}
+.bloc3 img {
+	width: 246px;
+	height: 124px;
+}
+.bloc3 figure {
+	margin-left: 50px;
+
+}
+#Iles {
+	width: 246px;
+	height: 134px;
+	margin-top: 22px;
+}
+
+}
  
