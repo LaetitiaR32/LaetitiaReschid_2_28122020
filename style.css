@@ -405,47 +405,55 @@ body{
 }
 }
 /* Responsive mobile */
-@media (max-width: 900px)
+@media screen and (max-width: 640px)
 {
-	body{
-		margin: 0 3%;
+body{
+font-size: 11pt;
+		}
+main{
+	margin: 0 3%;
+			}
 
-	}
-	#menu li { /* menu à coté du logo */
+#menu li { /* menu à coté du logo */
+		margin: 12px;
 	  }
 	
-	 #menu li:hover a { /*surlignement +survol bleu menu*/
-		padding-top: 42px;
+#menu li:hover a { /*surlignement +survol bleu menu*/
+		padding-bottom: 42px;
 	}
 	
-	#Filtres{
-		width: 60%;
-		display: flex;
-		flex-wrap: wrap;
-		border: solid;
+#Filtres li{
+		margin: 23px;
+
 	}
-	#Filtres li{
-		margin: 13px;
-	}
-	#Filtres p {
+#Filtres p {
 		margin: 12px;
 		color: black;
 	}
 	
-	#paragraphe {
+#paragraphe { /*modif*/
 		width: 100%;
-		margin-right: 15px;
-		border: solid;
+		padding: 4px;
+	}
+.bloc1 { /*hébergements*/
+		width: 65%;
+	}
+.bloc1 h2 {
+		margin: 5%;
+		margin-bottom: 20px;
 	}
 
-.bloc1 { /*hébergements*/
-		width: 97%;
+.bloc1 img{ /*hébergements*/`
+		width: 290px;
+		height: 114px;   
+		border-radius: 15px 15px 0px 0px;
+		border: solid 4px white;
+		object-fit: cover;
 	}
 
 .bloc2 { /*les +populaires*/
-margin: 0%;
 background-color:#F2F2F2; /*gris clair */
-
+width: 80%;
 }
 .bloc2 img { /* forme image les plus populaires*/
 	width: 130px;
@@ -454,29 +462,30 @@ background-color:#F2F2F2; /*gris clair */
 	border: solid 4px white ;	
 	object-fit: cover;	
 }
-.bloc2 figcaption {
-	background: white;
-	width: 199px;
-	height: 121px;
-	border-radius: 0px 15px 15px 0px ;	
-	padding-top: 19px;
-	padding-left: 17px;		
- }	
 
+#Activités  { 
+	margin-left: 77px;
+}
 .bloc3 {
+	margin: 0%;
 	width: 97%;
-	margin: 20px;
-	display: flex;
-	flex-wrap: wrap;
+}
+.bloc3 img {
+	width: 313px;
+	height: 124px;
+}
+#Iles {
+	width: 313px;
+	height: 124px;
 }
 
 #footer {
 display: flex;
-justify-content: space-between;
-margin: 0%;
+flex-direction: column;
+padding: 5%;
+width: 90%;
 background-color: #F2F2F2; /*gris clair*/
-}
-
+	}
 
 
 
