@@ -4,7 +4,7 @@ margin: 0%;
 font-size: 11pt;
 }
 main, header{
-	margin: 0 3%;
+	margin: 0 2%;
 }
 
 header, #menu {
@@ -136,10 +136,10 @@ i.iconeInfo {
 
 .bloc1 h2 {
 	margin: 5%;
-	margin-bottom: 20px;
 }
 
 .bloc1 p {
+
 	margin: 5%;
 }
 
