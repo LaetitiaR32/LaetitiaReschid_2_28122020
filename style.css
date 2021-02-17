@@ -204,16 +204,6 @@ i.iconeInfo {
 	border: solid 4px white ;	
 	object-fit: cover;	
 }
-
-#object-position-7 {
-	object-position: center;
-}
-#object-position-8 {
-	object-position: unset;
-}
-#object-position-9 {
-	object-position: center;
-}
 .bloc2 figcaption {
 	background: white;
 	width: 199px;
@@ -225,6 +215,16 @@ i.iconeInfo {
 
 .bloc2 i{
 	padding-top: 50px;
+}
+
+#object-position-7 {
+	object-position: center;
+}
+#object-position-8 {
+	object-position: unset;
+}
+#object-position-9 {
+	object-position: center;
 }
 
 /*Activités*/
@@ -403,6 +403,82 @@ body{
 	height: 134px;
 	margin-top: 22px;
 }
+}
+/* Responsive mobile */
+@media (max-width: 900px)
+{
+	body{
+		margin: 0 3%;
+
+	}
+	#menu li { /* menu à coté du logo */
+	  }
+	
+	 #menu li:hover a { /*surlignement +survol bleu menu*/
+		padding-top: 42px;
+	}
+	
+	#Filtres{
+		width: 60%;
+		display: flex;
+		flex-wrap: wrap;
+		border: solid;
+	}
+	#Filtres li{
+		margin: 13px;
+	}
+	#Filtres p {
+		margin: 12px;
+		color: black;
+	}
+	
+	#paragraphe {
+		width: 100%;
+		margin-right: 15px;
+		border: solid;
+	}
+
+.bloc1 { /*hébergements*/
+		width: 97%;
+	}
+
+.bloc2 { /*les +populaires*/
+margin: 0%;
+background-color:#F2F2F2; /*gris clair */
+
+}
+.bloc2 img { /* forme image les plus populaires*/
+	width: 130px;
+	height: 130px;
+	border-radius: 15px 0px 0px 15px;
+	border: solid 4px white ;	
+	object-fit: cover;	
+}
+.bloc2 figcaption {
+	background: white;
+	width: 199px;
+	height: 121px;
+	border-radius: 0px 15px 15px 0px ;	
+	padding-top: 19px;
+	padding-left: 17px;		
+ }	
+
+.bloc3 {
+	width: 97%;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#footer {
+display: flex;
+justify-content: space-between;
+margin: 0%;
+background-color: #F2F2F2; /*gris clair*/
+}
+
+
+
 
 }
  
