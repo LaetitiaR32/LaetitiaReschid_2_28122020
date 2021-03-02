@@ -438,24 +438,24 @@ main {
 
 header img { /* taille logo */
 	width: 80px;
+	margin-left: 20px;
 	
 }
 nav {
-	margin-right: 0;
+	margin-right: -19px;
 }
 
 section {
-	margin-left: 21px;
+	margin-left: 16px;
 }
 
 .inscrire {
 	position: absolute;
-	top: 18px;
-	right: 11px;
+	top: -18px;
+	right: -61px;
 }
 
 #menu {
-	padding-bottom: 15px;
 	border-bottom:3px solid lightgrey;
 }
 
@@ -463,13 +463,13 @@ section {
 	border-top: none;
 	padding-bottom: 15px;
 	border-bottom: 3px solid blue;
-	transform: scaleX(0);  
-	transition: transform 250ms ease-in-out;
 
 }
 
 #menu li { /* menu à coté du logo */
-	margin: 0%;	
+	margin-left: 6px;	
+	margin-right: 83px;
+	margin-bottom: 13px;
 	  }
 
 #barre {
@@ -478,7 +478,7 @@ section {
 
 }
 input {
-	width: 264px;
+	width: 236px;
 }
 button {
 	display: none;	
@@ -558,16 +558,15 @@ i.iconeInfo {
 	box-shadow: 5px 5px 5px 5px #F2F2F2;	
 	border-radius: 15px 15px 15px 15px;
 	padding-bottom: 12px;
-
+	margin-left: 24px;
 
 	}
 	
-
 .bloc2 { /*les +populaires*/
 	width: 100%;
 	border-radius: unset;
 	margin-left: 0%;
-	padding: 4%;
+	padding: 2%;
 	box-sizing: border-box;
 }
 .bloc2 h2 {
@@ -591,6 +590,7 @@ i.iconePop {
 }
 .bloc2 figure {
 	width: 100%;
+	margin: 6px;
 }
 
 #Activités  { 
@@ -607,12 +607,16 @@ i.iconePop {
 	object-fit: cover;
 
 }
+.bloc3 figure {
+	margin: 10px;
+}
 
 #Iles {
 	width: 330px;
 	height: 144px;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding-bottom: 20px;
+	margin-bottom: 22px;
 }
 #Fort {
 	height: unset;
