@@ -420,6 +420,7 @@ body{
 {
 body{
  font-size: 11pt;
+ overflow-x: hidden;
 
 		}
 
@@ -457,12 +458,12 @@ section {
 }
 
 #menu {
-	border-bottom:3px solid lightgrey;
+	border-bottom:3px solid lightgrey;	
 }
 
 #menu li:hover a { /*surlignement +survol bleu menu*/
 	border-top: none;
-	padding-bottom: 15px;
+	padding-bottom: 13px;
 	border-bottom: 3px solid blue;
 
 }
@@ -618,14 +619,14 @@ i.iconePop {
 }
 .bloc3 figure {
 	margin: 14px;
+
 }
 
 #Iles {
-	width: 316px;
-	height: 135px;
+	height: 143px;
 	margin-top: 10px;
-	padding-bottom: 20px;
-	margin-bottom: 22px;
+	padding-bottom: 39px;
+	margin-bottom: 14px;
 }
 #Fort {
 	height: unset;
