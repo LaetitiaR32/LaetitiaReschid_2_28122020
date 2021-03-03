@@ -480,6 +480,8 @@ section {
 }
 input {
 	width: 236px;
+	border-radius: unset;
+	box-shadow: none;
 }
 button {
 	display: none;	
