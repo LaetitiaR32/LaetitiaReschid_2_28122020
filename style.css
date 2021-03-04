@@ -56,7 +56,16 @@ input {
 	height: 40px;
 	width: 180px;
 	border-color: #F2F2F2;
+	font-family: sans-serif;
 }
+
+input::placeholder {
+	color: black;
+	font-size: 17px;
+	font-weight: bold;
+
+  }
+
 i.iconeSearch {
 	display: none;
 }
@@ -102,7 +111,7 @@ i.iconeInfo {
 	color: #0065FC; /* bleu */
 	border: 2px solid lightgrey;
 	border-radius: 60px;
-	height: 20px;	
+	height: 21px;	
 	width: 22px;
 	display: flex;
 	justify-content: center;
@@ -312,7 +321,7 @@ margin-left: 3px;
 	color: #0065FC; /* bleu */
 }
 .starGris {
-	color: grey; /* gris */
+	color: #F2F2F2; /* gris */
 }
 
 /* pied de page */
@@ -443,7 +452,7 @@ header img { /* taille logo */
 	
 }
 nav {
-	margin-right: -19px;
+	
 	margin-top: -16px;
 }
 
@@ -453,26 +462,38 @@ section {
 
 .inscrire {
 	position: absolute;
-	top: -18px;
-	right: -61px;
+	top: 15px;
+	right: 20px;
+}
+
+#menu li.Heb {
+	margin-top: 30px;
+}
+#menu li {
+	margin: 0;
 }
 
 #menu {
-	border-bottom:3px solid lightgrey;	
+	padding: 0;	
+}
+#menu li:hover a {
+	border: none;
 }
 
-#menu li:hover a { /*surlignement +survol bleu menu*/
-	border-top: none;
+#menu .Heb { /* menu à coté du logo */
+	margin-left: 0;	
+	margin-right: 0;
+	margin-bottom: 0;
+	border-bottom: 3px solid lightgrey;
+	width: 50%;
 	padding-bottom: 13px;
-	border-bottom: 3px solid blue;
+	text-align: center;
 
-}
-
-#menu li { /* menu à coté du logo */
-	margin-left: 6px;	
-	margin-right: 83px;
-	margin-bottom: 13px;
 	  }
+
+#menu .Heb:hover{
+ 	border-bottom: 3px solid blue;
+}
 
 #barre {
 	margin-top: 30px;
@@ -546,6 +567,8 @@ i.iconeInfo {
 .bloc1 p {
 	margin-top: 50px;
 	margin-left: 27px;
+	font-size: 17px;
+	margin-bottom: 30px;
 }
 
 .bloc1 h2 {
@@ -560,11 +583,17 @@ i.iconeInfo {
 	height: 118px;
 }
 
+.bloc1 figcaption {
+	padding-top: 6px;
+	padding-left: 18px;
+	line-height: 20px;
+}
+
 .bloc1 figure {
 	margin-bottom: -12px;
 	box-shadow: 5px 5px 5px 5px #F2F2F2;	
 	border-radius: 15px 15px 15px 15px;
-	margin-left: 24px;
+	margin-left: 20px;
 
 	}
 	
@@ -586,7 +615,11 @@ i.iconeInfo {
 	width: calc(100% - 128px);
 	height: 119px;
 	margin-right: 12px;
+	padding-left: 34px;
 	
+}
+.bloc2 i {
+	padding-top: 38px;
 }
 
 i.iconePop {
@@ -609,7 +642,7 @@ i.iconePop {
 .bloc3 {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 8px;
+	margin-left: 4px;
 }
 .bloc3 img {
 	width: 316px;
