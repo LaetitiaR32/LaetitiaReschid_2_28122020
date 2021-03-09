@@ -42,6 +42,7 @@ header, #menu {
 #barre{
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 30px;
 }
 
 button {
@@ -115,15 +116,15 @@ i.iconeInfo {
 	width: 22px;
 	display: flex;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
+	margin-right: 11px;
   }
 
 #paragraphe {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
 	margin-bottom: 24px;
-	width: 32%;
+	width: 40%;
 }
 #conteneur{
 	display: flex;
@@ -147,8 +148,10 @@ i.iconeInfo {
 	background-color:#F2F2F2; /*gris clair */
 }
 
-.bloc1 h2 {
-	margin: 5%;
+.bloc1 h2 { /* à changer si necessaire*/
+	margin-top: 36px;
+	margin-bottom: 18px;
+	margin-left: 33px;
 }
 
 .bloc1 p {
@@ -192,6 +195,8 @@ i.iconeInfo {
 
 .bloc1 figure { /* fond blanc img hébergements*/
 	margin: 30px;
+	box-shadow: 3px 4px 7px 2px lightgray;	
+	border-radius: 15px 15px 15px 15px;
 }
 /*Les plus populaires*/
 
@@ -201,12 +206,15 @@ i.iconeInfo {
 	align-content: center;
 	margin: 25px;
 	padding-top: 15px;
+	box-shadow: 2px 2px 4px 3px #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+	
 }
 .bloc2 h2 {
 	display: flex;
 	justify-content: space-around;
 	align-items: baseline;
-	margin-top: 2px;
+	margin-top: 4px;
 	MARGIN-BOTTOM: 30px;
 }
 	
@@ -220,15 +228,22 @@ i.iconeInfo {
 .bloc2 figcaption {
 	background: white;
 	width: 199px;
-	height: 121px;
+	height: 120px;
 	border-radius: 0px 15px 15px 0px ;	
 	padding-top: 19px;
 	padding-left: 17px;		
  }	
 
-.bloc2 i{
-	padding-top: 50px;
+.bloc2 i.starBleu{
+	padding-top: 38px;
 }
+
+.bloc2 i.starBleus{
+	padding-top: 38px;
+	color: #0065FC
+}
+
+
 
 i.iconePop { /* icone à côté du titre Lesplus pop*/
 	padding-top: 37px;
@@ -265,7 +280,7 @@ margin-left: 3px;
 
 .bloc3 figure { /* fond blanc img hébergements*/
 	margin: 20px;
-	box-shadow: 5px 5px 5px 5px lightgrey;	
+	box-shadow: 5px 5px 5px 5px #F2F2F2;	
 	border-radius: 15px 15px 15px 15px;
 }
 
@@ -370,16 +385,19 @@ body{
 	display: flex;
 	flex-direction: column-reverse;
 }
+#photos {
+	width: 95%;
+}
 
 .bloc1 {
 	width: 97%;
 	margin: 1.5%;
 }
 .bloc1 figure {
-	padding-left: 40px;
 	box-shadow: 5px 5px 5px 5px lightgrey;	
-
+	margin-left: 72px;
 }
+
 
 .bloc2{ /*les plus populaires*/
 	width: 97%;
@@ -387,10 +405,19 @@ body{
 	padding-top: 5px;
 }
 .bloc2 figure {
-	margin-left: 70px;
+	margin-left: 90px;
 }
 .bloc2 img {
 	width: 250px;
+}
+
+.bloc2 i.starBleu{
+	padding-top: 57px;
+}
+
+.bloc2 i.starBleus{
+	padding-top: 38px;
+	color: #0065FC
 }
 .bloc2 figcaption {
 	width: 250px;
@@ -403,7 +430,7 @@ body{
 }
 .bloc3 {
 	width: 97%;
-	margin: 20px;
+	margin-left: -12px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -415,7 +442,7 @@ body{
 	height: 124px;
 }
 .bloc3 figure {
-	margin-left: 50px;
+	margin-left: 83px;
 
 }
 #Iles {
@@ -457,7 +484,7 @@ nav {
 }
 
 section {
-	margin-left: 16px;
+	margin-left: 20px;
 }
 
 .inscrire {
@@ -528,7 +555,7 @@ h1 p { /* déplacer le p (filtres faire descendre)*/
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: -9px;
-	margin-right: -17px;
+	margin-left: -6px;
 	
 }	
 #Filtres li{ /*espace entre les filtres*/
@@ -547,7 +574,6 @@ h1 p { /* déplacer le p (filtres faire descendre)*/
 #paragraphe p {
 	margin-bottom: 16px;
 	margin-top: 15px;
-	margin-left: 13px;
 
 }
 i.iconeInfo {
@@ -576,6 +602,7 @@ i.iconeInfo {
 	width: 279px;
 	padding: 6%;
 	margin-bottom: -22px;
+	margin-left: 6px;
 }
 
 .bloc1 img{ /*hébergements*/
@@ -593,7 +620,7 @@ i.iconeInfo {
 	margin-bottom: -12px;
 	box-shadow: 5px 5px 5px 5px #F2F2F2;	
 	border-radius: 15px 15px 15px 15px;
-	margin-left: 20px;
+	margin-left: 22px;
 
 	}
 	
@@ -617,9 +644,6 @@ i.iconeInfo {
 	margin-right: 12px;
 	padding-left: 34px;
 	
-}
-.bloc2 i {
-	padding-top: 38px;
 }
 
 i.iconePop {
@@ -651,8 +675,7 @@ i.iconePop {
 
 }
 .bloc3 figure {
-	margin: 14px;
-
+	margin: 15px;
 }
 
 #Iles {
@@ -675,7 +698,9 @@ background-color: #F2F2F2; /*gris clair*/
 padding: 6%;
 	}
 
-
+footer {
+	margin:0%;
+}
 
 }
  
