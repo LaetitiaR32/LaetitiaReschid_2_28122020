@@ -484,7 +484,7 @@ nav {
 }
 
 section {
-	margin-left: 13px;
+	margin-left: 16px;
 }
 
 .inscrire {
@@ -577,7 +577,7 @@ h1 p { /* déplacer le p (filtres faire descendre)*/
 
 }
 i.iconeInfo {
-	width: 30px;
+	width: 21px;
 }
 
 #conteneur {
@@ -620,7 +620,8 @@ i.iconeInfo {
 
 .bloc1 figure {
 	margin-bottom: -12px;
-	margin-left: 22px;
+	margin-left: 12px;
+	margin-right: 20px;
 	width: 100%;
 
 	}
