@@ -484,7 +484,7 @@ nav {
 }
 
 section {
-	margin-left: 20px;
+	margin-left: 13px;
 }
 
 .inscrire {
@@ -528,7 +528,7 @@ section {
 
 }
 input {
-	width: 236px;
+	width: 70%;
 	border-radius: unset;
 	box-shadow: none;
 }
@@ -577,8 +577,7 @@ h1 p { /* déplacer le p (filtres faire descendre)*/
 
 }
 i.iconeInfo {
-	margin-bottom: 15px;
-	width: 29px;
+	width: 30px;
 }
 
 #conteneur {
@@ -586,9 +585,11 @@ i.iconeInfo {
 	flex-direction: column-reverse;
 }
 
+
 .bloc1 { /*hébergements*/
 	background-color: unset;
-	margin: -2%;
+	margin:0%;
+	width: 100%;
 }
 .bloc1 p {
 	margin-top: 50px;
@@ -606,21 +607,21 @@ i.iconeInfo {
 }
 
 .bloc1 img{ /*hébergements*/
-	width: 316px;
-	height: 118px;
+	width: 100%;
+	height: 135px;
 }
 
 .bloc1 figcaption {
 	padding-top: 6px;
-	padding-left: 18px;
+	padding-left: 10px;
 	line-height: 20px;
+	width: 98%;
 }
 
 .bloc1 figure {
 	margin-bottom: -12px;
-	box-shadow: 5px 5px 5px 5px #F2F2F2;	
-	border-radius: 15px 15px 15px 15px;
 	margin-left: 22px;
+	width: 100%;
 
 	}
 	
@@ -642,20 +643,28 @@ i.iconeInfo {
 	width: calc(100% - 128px);
 	height: 119px;
 	margin-right: 12px;
-	padding-left: 34px;
-	
+	padding-left: 14px;	
 }
+
+.bloc2 i.starBleu {
+	padding-top: 41px;
+}
+
+.bloc2 i.starBleus {
+	padding-top: 41px;
+}
+
 
 i.iconePop {
 	padding-top: 29px;
 }
 .bloc2 img { /* forme image les plus populaires*/
-	width: 128px;
+	width: 52%;
 	min-width: 128px;
 }
 .bloc2 figure {
 	width: 100%;
-	margin-top: -28px;
+	margin-top: -25px;
 	margin-left: 4px;
 }
 
@@ -669,26 +678,37 @@ i.iconePop {
 	margin-left: 4px;
 }
 .bloc3 img {
-	width: 316px;
+	width: 100%;
 	height: 135px;
 	object-fit: cover;
 
 }
 .bloc3 figure {
-	margin: 15px;
+	margin-bottom: 6px;
+	margin-left: 9px;
+}
+
+#Parc {
+	width: 100%;
 }
 
 #Iles {
 	height: 143px;
-	margin-top: 10px;
+	margin-top: 17px;
 	padding-bottom: 39px;
-	margin-bottom: 14px;
+	margin-bottom: 2px;
+	width: 100%;
 }
 #Fort {
 	height: unset;
+	width: 100%;
 }
 #Dame {
 	height: unset;
+	width: 100%;
+}
+#Longchamp {
+	width: 100%;
 }
 
 #footer {
