@@ -524,7 +524,7 @@ section {
 
 #barre {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 26px;
 
 }
 input {
@@ -568,7 +568,7 @@ h1 p { /* déplacer le p (filtres faire descendre)*/
 	}
 	
 #paragraphe { /*modif*/
-		width: 98%;
+		width: 96%;
 	}
 
 #paragraphe p {
@@ -577,7 +577,7 @@ h1 p { /* déplacer le p (filtres faire descendre)*/
 
 }
 i.iconeInfo {
-	width: 21px;
+	width: 23px;
 }
 
 #conteneur {
@@ -676,7 +676,7 @@ i.iconePop {
 .bloc3 {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 4px;
+	margin-left: 0;
 }
 .bloc3 img {
 	width: 100%;
