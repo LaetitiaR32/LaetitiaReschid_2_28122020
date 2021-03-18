@@ -243,8 +243,6 @@ i.iconeInfo {
 	color: #0065FC
 }
 
-
-
 i.iconePop { /* icone à côté du titre Lesplus pop*/
 	padding-top: 37px;
 }
@@ -387,6 +385,9 @@ body{
 }
 #photos {
 	width: 95%;
+	display: flex;
+	justify-content: center;
+	margin-left: -1%;
 }
 
 .bloc1 {
@@ -395,7 +396,7 @@ body{
 }
 .bloc1 figure {
 	box-shadow: 5px 5px 5px 5px lightgrey;	
-	margin-left: 72px;
+	margin-left: 17%;
 }
 
 
@@ -406,6 +407,9 @@ body{
 }
 .bloc2 figure {
 	margin-left: 90px;
+	display: flex;
+	justify-content: center;
+
 }
 .bloc2 img {
 	width: 250px;
@@ -442,7 +446,7 @@ body{
 	height: 124px;
 }
 .bloc3 figure {
-	margin-left: 83px;
+	margin-left: 18%;
 
 }
 #Iles {
